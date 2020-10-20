@@ -1,0 +1,186 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+height: 100%;
+}
+
+#product{
+    padding: 5px;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+/*read more or learn more------------------------*/
+.jumbotron{
+  height:auto;
+  widows: 100%;
+  padding: 10px;
+  background : url("image/bg.PNG");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+}
+  
+.jumbotron h1 {
+	text-align: center;
+}
+.jumbotron p {
+	text-align: center;
+}
+.jumbotron a {
+	    color: #1b1a1a
+}
+.btn-primary {
+    color: #fff;
+    background-color: #eef1f5;
+    border-color: #d8dde2;
+}
+
+
+#imglogo{
+padding: 10px;
+text-align: center;
+}
+
+#box-write{
+  width: 100%;
+  height: 100%;  
+  padding: 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.container{
+margin-bottom:10px;
+
+}
+
+/*Footer 1 start here.....................*/
+
+.footer1{
+    text-align: center;
+    background: black;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 69px;
+    text-align: center;
+    text-decoration: none;
+    margin: 12px 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/* Footer 1 start end here .....................*/
+/*Footer 2 start here.............................*/
+footer {
+    background: linear-gradient(59deg, #2790c4, #be8835);
+    color: white;
+    margin-top: 100px;
+}
+footer a {
+  color: #fff;
+  font-size: 14px;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+/*Line drowing............*/
+.copy {
+  margin: 10px;
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+/*Line drowing end .........*/
+
+.footer-middle {
+  padding-top: 20px;
+  color: white;
+}
+/* footer social icons .................*/
+
+ul.social-network {
+  display: inline;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+/* soci icon make circle .................*/
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 62px;
+}
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+
+
